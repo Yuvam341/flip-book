@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Flip Book</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="book">
+      <input type="checkbox" id="c1" />
+      <input type="checkbox" id="c2" />
+      <input type="checkbox" id="c3" />
+      <div id="cover"><img src="10.png" /></div>
+      <div class="flip-book">
+        <div class="flip" id="p1">
+          <div class="back">
+            <img src="11.png" />
+            <label class="back-btn" for="c1">Back</label>
+          </div>
+          <div class="front">
+            <h2>iphon10</h2>
+            <p>
+                The phone has a 6.1-inch Liquid Retina LED-backlit LCD IPS panel display.
+            </p>
+            <label class="next-btn" for="c1">Next</label>
+          </div>
+        </div>
+        <div class="flip" id="p2">
+          <div class="back">
+            <img src="12.png" />
+            <label class="back-btn" for="c2">Back</label>
+          </div>
+          <div class="front">
+            <h2>Iphone11</h2>
+            <p>
+                The iPhone 11 is a smartphone designed, developed, and marketed by Apple Inc. 
+            </p>
+            <label class="next-btn" for="c2">Next</label>
+          </div>
+        </div>
+
+        <div class="flip" id="p3">
+          <div class="back">
+            <label class="back-btn" for="c3">Back</label>
+          </div>
+          <div class="front">
+            <h2>Iphone12 pro</h2>
+            <p>
+                The iPhone 12 Pro and iPhone 12 Pro Max are smartphones designed and marketed by Apple Inc.
+            </p>
+            <label class="next-btn" for="c3">Next</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
